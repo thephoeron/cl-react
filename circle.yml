@@ -12,6 +12,7 @@ dependencies:
       esac
     - ros run -- --version
   override:
+    - git clone https://github.com/thephoeron/cl-jsx ~/lisp/cl-jsx
     - git clone https://github.com/fukamachi/cl-coveralls ~/lisp/cl-coveralls
     - git clone https://github.com/fukamachi/prove ~/lisp/prove
     - ros -l ~/lisp/prove/prove.asd install prove
