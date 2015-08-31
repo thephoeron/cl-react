@@ -11,7 +11,7 @@
   :serial t
   :license "MIT"
   :author "\"the Phoeron\" Colin J.E. Lupton <sysop@thephoeron.com>"
-  :description "React.js component library for CL web application development"
+  :description "Common Lisp interface to React.js framework"
   :version "0.0.1"
   :depends-on (:cl-jsx
                :cl-who
